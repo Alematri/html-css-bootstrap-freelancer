@@ -19,77 +19,112 @@
 </head>
 
 <body>
-
+  <header>
     <!-- nav -->
-    <nav class="flex">
-        <div class="container-fluid debug">
+
+        <div class="container">
           <div class="row">
-            <div class="col-6">START BOOTSTRAP</div>
-            <div class="col-6">
-              <ul class="list-unstyled d-flex d-none d-md-flex debug">
-                <li>Lorem.</li>
-                <li>Lorem.</li>
-                <li>Lorem.</li>
-              </ul>
-                <div class="d-md-none debug">
-                  <i class="fas fa-bars"></i>
-                </div>
+            <div class="col">LOGO</div>
+            <div class="col text-end">
+              <nav class="d-none d-md-block">MENU DESKTOP</nav>
+              <div class="d-md-none">
+                <i class="fas fa-bars"></i>
+              </div>
             </div>
           </div>
         </div>
-    </nav>
 
-     <!-- jambotron -->
-    <div class="jambotron debug">
-        <div class="container-md debug">
-            <div class="row text-center">
-                <div class="col-12">
-                  <div class="avatar debug">img</div>
-                  <h2>start bootstarp</h2>
-                  <div class="star flex">
-                    <i class="fas fa-star"></i>
-                  </div>
-                  <h3>Lorem ipsum dolor sit amet.</h3>
-                </div>
-            </div>
+  </header>
+
+    <!-- jumbotron -->
+    <section class="sc-jumbotron">
+        <div class="container content h-100 d-flex justify-content-center align-items-center flex-column ">
+            <div>IMG</div>
+            <div>TITOLO</div>
+            <div class="star">STAR</div>
+            <div>TEXT</div>
         </div>
-    </div>
+    </section>
 
     <!-- portfolio -->
-    <section id="portfolio">
+    <section id="portfolio" class="py-5">
 
-      <div class="container">
-        <div class="row debug">
-          <div class="col text-center">
-            <h2>Portfolio</h2>
-            <i class="fas fa-star"></i>
-          </div>  
+      <div class="container section-top text-center mb-4">
+        <h2>PORTFOLIO</h2>
+        <div class="star">STAR</div>
+      </div>
+
+      <div class="container cards">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+          <div class="col">1</div>
+          <div class="col">2</div>
+          <div class="col">3</div>
+          <div class="col">4</div>
+          <div class="col">5</div>
+          <div class="col">6</div>
         </div>
+      </div>
 
-        <div class="row debug">
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="debug">img</div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="debug">img</div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="debug">img</div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="debug">img</div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="debug">img</div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4">
-            <div class="debug">img</div>
+    </section>
+
+    <section id="about" class="py-5 bg-green">
+
+    <!-- about -->
+      <div class="container section-top text-center mb-4">
+        <h2>ABOUT</h2>
+        <div class="star">STAR</div>
+      </div>
+
+      <div class="container-sc">
+        <div class="container-fluid">
+          <div class="row row-cols-1 row-cols-md-2">
+            <div class="col">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis obcaecati quis aut soluta, vero consequatur, porro tenetur assumenda perferendis fuga, neque dolorem voluptates quos! Soluta, provident iste maiores nisi aspernatur delectus ea dolorem cum obcaecati voluptatum nobis sint deserunt reiciendis repudiandae expedita odit at, vel recusandae similique nostrum laboriosam? Eligendi?
+            </div>
+            <div class="col">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis obcaecati quis aut soluta, vero consequatur, porro tenetur assumenda perferendis fuga, neque dolorem voluptates quos! Soluta, provident iste maiores nisi aspernatur delectus ea dolorem cum obcaecati voluptatum nobis sint deserunt reiciendis repudiandae expedita odit at, vel recusandae similique nostrum laboriosam? Eligendi?
+            </div>
           </div>
         </div>
       </div>
+      
+      <div class="button text-center">
+        DOWNLOAD
+      </div>
+
     </section>
 
-    <!-- about -->
+  <!-- about -->
+
+  <section id="contact" class="py-5 bg-green">
+    <div class="container section-top text-center mb-4">
+      <h2>contact me</h2>
+      <div class="star">star</div>
+    </div>
+
+    <div class="container-sc mb-3">
+      <div>form</div>
+    </div>
+  </section>
+
+  <footer class="text-center">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col">left</div>
+          <div class="col">center</div>
+          <div class="col">right</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom pt-4">
+      <p class="pt-2">copyright</p>
+    </div>
+
+  </footer>
+  
 
 </body>
 </html>
