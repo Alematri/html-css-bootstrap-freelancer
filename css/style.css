@@ -49,6 +49,11 @@ body{
   background-color: var(--text-dark);
 }
 
+.sc-star.white::before,
+.sc-star.white::after{
+  background-color: white;
+}
+
 .bg-green{
   background-color: #31bc9c;
   color: white;
@@ -121,6 +126,30 @@ footer{
 .footer-bottom{
   height: 110px;
   background-color: var(--text-dark);
+}
+
+/* FORM */
+.input-custom{
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0;
+  padding-left: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.input-custom::placeholder{
+  color: var(--text-dark);
+}
+
+.btn-custom{
+  background-color: var(--bg-green);
+  border: none;
+}
+
+.btn-custom:hover{
+  background-color: rgba(49, 188, 156, .7);
 }
 
 /* MEDIA */
